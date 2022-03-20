@@ -7,3 +7,5 @@
 + modules 勾选 luci-compat, 没有这个的话 ssr 插件界面可能异常
 2. 内核模块的 NAT 支持
 + 勾选 Kernel Modules -> kmod-ipt-nat
+3. Base system
++ 取消勾选 dnsmasq, 因为会与 dnsmasq-full 冲突
